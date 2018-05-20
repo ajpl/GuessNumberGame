@@ -12,6 +12,7 @@
 		EBFB42DC20B12D4100C62C85 /* GuessNumberHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DB20B12D4100C62C85 /* GuessNumberHuman.swift */; };
 		EBFB42DE20B12D7100C62C85 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DD20B12D7100C62C85 /* UserInput.swift */; };
 		EBFB42E020B12DC400C62C85 /* ConsoleMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */; };
+		EBFB42E220B12F4700C62C85 /* GuessNumberComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42E120B12F4700C62C85 /* GuessNumberComputer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		EBFB42DB20B12D4100C62C85 /* GuessNumberHuman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberHuman.swift; sourceTree = "<group>"; };
 		EBFB42DD20B12D7100C62C85 /* UserInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInput.swift; sourceTree = "<group>"; };
 		EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleMessages.swift; sourceTree = "<group>"; };
+		EBFB42E120B12F4700C62C85 /* GuessNumberComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberComputer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				EBFB42D220B12AC500C62C85 /* main.swift */,
 				EBFB42D920B12C0200C62C85 /* GuessNumberGame.swift */,
 				EBFB42DB20B12D4100C62C85 /* GuessNumberHuman.swift */,
+				EBFB42E120B12F4700C62C85 /* GuessNumberComputer.swift */,
 				EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */,
 				EBFB42DD20B12D7100C62C85 /* UserInput.swift */,
 			);
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBFB42DC20B12D4100C62C85 /* GuessNumberHuman.swift in Sources */,
+				EBFB42E220B12F4700C62C85 /* GuessNumberComputer.swift in Sources */,
 				EBFB42DE20B12D7100C62C85 /* UserInput.swift in Sources */,
 				EBFB42DA20B12C0200C62C85 /* GuessNumberGame.swift in Sources */,
 				EBFB42E020B12DC400C62C85 /* ConsoleMessages.swift in Sources */,

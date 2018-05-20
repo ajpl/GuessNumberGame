@@ -22,7 +22,8 @@ repeat {
             let gnh = GuessNumberHumanClass(inputType: read)
             gnh.start()
         case "2":
-            break
+            let gnc = GuessNumberComputerClass(inputType: read)
+            gnc.start()
         case "3":
             print(ConsoleMessages.shared.goodbyeMsg())
             abort()
