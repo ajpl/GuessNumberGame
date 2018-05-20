@@ -54,3 +54,19 @@ class ProvideRandomNumber: UserInput {
         return previousRandoms.last!
     }
 }
+
+class ProvideAnswer: UserInput {
+    private var answers : [String]
+    private var count = 0
+    init(answerArray : [String]) {
+        answers = answerArray
+    }
+    func getInput() -> String {
+        let actualCount = count
+        count += 1
+        return answers[actualCount]
+    }
+    func setAnswers(answerArray : [String]) -> () {
+        answers = answerArray
+    }
+}

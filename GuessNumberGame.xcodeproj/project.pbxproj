@@ -14,6 +14,7 @@
 		EB6FC4C720B133ED00443B44 /* GuessNumberComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42E120B12F4700C62C85 /* GuessNumberComputer.swift */; };
 		EB6FC4C820B133ED00443B44 /* ConsoleMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */; };
 		EB6FC4C920B133ED00443B44 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DD20B12D7100C62C85 /* UserInput.swift */; };
+		EB6FC4CB20B1343B00443B44 /* GuessNumberComputerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC4CA20B1343B00443B44 /* GuessNumberComputerTests.swift */; };
 		EBFB42D320B12AC500C62C85 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D220B12AC500C62C85 /* main.swift */; };
 		EBFB42DA20B12C0200C62C85 /* GuessNumberGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D920B12C0200C62C85 /* GuessNumberGame.swift */; };
 		EBFB42DC20B12D4100C62C85 /* GuessNumberHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DB20B12D4100C62C85 /* GuessNumberHuman.swift */; };
@@ -38,6 +39,7 @@
 		EB6FC4BA20B1335000443B44 /* GuessNumberGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessNumberGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6FC4BE20B1335000443B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB6FC4C220B1339300443B44 /* GuessNumberHumanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberHumanTests.swift; sourceTree = "<group>"; };
+		EB6FC4CA20B1343B00443B44 /* GuessNumberComputerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberComputerTests.swift; sourceTree = "<group>"; };
 		EBFB42CF20B12AC500C62C85 /* GuessNumberGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GuessNumberGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFB42D220B12AC500C62C85 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EBFB42D920B12C0200C62C85 /* GuessNumberGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberGame.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			children = (
 				EB6FC4BE20B1335000443B44 /* Info.plist */,
 				EB6FC4C220B1339300443B44 /* GuessNumberHumanTests.swift */,
+				EB6FC4CA20B1343B00443B44 /* GuessNumberComputerTests.swift */,
 			);
 			path = GuessNumberGameTests;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				EB6FC4C420B133ED00443B44 /* main.swift in Sources */,
 				EB6FC4C720B133ED00443B44 /* GuessNumberComputer.swift in Sources */,
 				EB6FC4C320B1339300443B44 /* GuessNumberHumanTests.swift in Sources */,
+				EB6FC4CB20B1343B00443B44 /* GuessNumberComputerTests.swift in Sources */,
 				EB6FC4C620B133ED00443B44 /* GuessNumberHuman.swift in Sources */,
 				EB6FC4C520B133ED00443B44 /* GuessNumberGame.swift in Sources */,
 				EB6FC4C820B133ED00443B44 /* ConsoleMessages.swift in Sources */,
