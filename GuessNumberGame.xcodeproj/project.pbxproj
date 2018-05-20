@@ -13,13 +13,6 @@
 		EBFB42DE20B12D7100C62C85 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DD20B12D7100C62C85 /* UserInput.swift */; };
 		EBFB42E020B12DC400C62C85 /* ConsoleMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */; };
 		EBFB42E220B12F4700C62C85 /* GuessNumberComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42E120B12F4700C62C85 /* GuessNumberComputer.swift */; };
-		EBFB42F120B1308100C62C85 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D220B12AC500C62C85 /* main.swift */; };
-		EBFB42F220B1308100C62C85 /* GuessNumberGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D920B12C0200C62C85 /* GuessNumberGame.swift */; };
-		EBFB42F320B1308100C62C85 /* GuessNumberHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DB20B12D4100C62C85 /* GuessNumberHuman.swift */; };
-		EBFB42F420B1308100C62C85 /* GuessNumberComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42E120B12F4700C62C85 /* GuessNumberComputer.swift */; };
-		EBFB42F520B1308100C62C85 /* ConsoleMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */; };
-		EBFB42F620B1308100C62C85 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DD20B12D7100C62C85 /* UserInput.swift */; };
-		EBFB42F820B130A400C62C85 /* GuessNumberHumanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42F720B130A400C62C85 /* GuessNumberHumanTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,20 +35,10 @@
 		EBFB42DD20B12D7100C62C85 /* UserInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInput.swift; sourceTree = "<group>"; };
 		EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleMessages.swift; sourceTree = "<group>"; };
 		EBFB42E120B12F4700C62C85 /* GuessNumberComputer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberComputer.swift; sourceTree = "<group>"; };
-		EBFB42E920B1307800C62C85 /* GuessNumberGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessNumberGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBFB42ED20B1307800C62C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBFB42F720B130A400C62C85 /* GuessNumberHumanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberHumanTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EBFB42CC20B12AC500C62C85 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EBFB42E620B1307800C62C85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				EBFB42D120B12AC500C62C85 /* GuessNumberGame */,
-				EBFB42EA20B1307800C62C85 /* GuessNumberGameTests */,
 				EBFB42D020B12AC500C62C85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				EBFB42CF20B12AC500C62C85 /* GuessNumberGame */,
-				EBFB42E920B1307800C62C85 /* GuessNumberGameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,15 +75,6 @@
 				EBFB42DD20B12D7100C62C85 /* UserInput.swift */,
 			);
 			path = GuessNumberGame;
-			sourceTree = "<group>";
-		};
-		EBFB42EA20B1307800C62C85 /* GuessNumberGameTests */ = {
-			isa = PBXGroup;
-			children = (
-				EBFB42F720B130A400C62C85 /* GuessNumberHumanTests.swift */,
-				EBFB42ED20B1307800C62C85 /* Info.plist */,
-			);
-			path = GuessNumberGameTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,23 +97,6 @@
 			productReference = EBFB42CF20B12AC500C62C85 /* GuessNumberGame */;
 			productType = "com.apple.product-type.tool";
 		};
-		EBFB42E820B1307800C62C85 /* GuessNumberGameTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EBFB42EE20B1307800C62C85 /* Build configuration list for PBXNativeTarget "GuessNumberGameTests" */;
-			buildPhases = (
-				EBFB42E520B1307800C62C85 /* Sources */,
-				EBFB42E620B1307800C62C85 /* Frameworks */,
-				EBFB42E720B1307800C62C85 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GuessNumberGameTests;
-			productName = GuessNumberGameTests;
-			productReference = EBFB42E920B1307800C62C85 /* GuessNumberGameTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,9 +108,6 @@
 				ORGANIZATIONNAME = ajpl;
 				TargetAttributes = {
 					EBFB42CE20B12AC500C62C85 = {
-						CreatedOnToolsVersion = 9.3;
-					};
-					EBFB42E820B1307800C62C85 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -173,20 +125,9 @@
 			projectRoot = "";
 			targets = (
 				EBFB42CE20B12AC500C62C85 /* GuessNumberGame */,
-				EBFB42E820B1307800C62C85 /* GuessNumberGameTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		EBFB42E720B1307800C62C85 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EBFB42CB20B12AC500C62C85 /* Sources */ = {
@@ -199,20 +140,6 @@
 				EBFB42DA20B12C0200C62C85 /* GuessNumberGame.swift in Sources */,
 				EBFB42E020B12DC400C62C85 /* ConsoleMessages.swift in Sources */,
 				EBFB42D320B12AC500C62C85 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EBFB42E520B1307800C62C85 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBFB42F120B1308100C62C85 /* main.swift in Sources */,
-				EBFB42F420B1308100C62C85 /* GuessNumberComputer.swift in Sources */,
-				EBFB42F820B130A400C62C85 /* GuessNumberHumanTests.swift in Sources */,
-				EBFB42F320B1308100C62C85 /* GuessNumberHuman.swift in Sources */,
-				EBFB42F220B1308100C62C85 /* GuessNumberGame.swift in Sources */,
-				EBFB42F520B1308100C62C85 /* ConsoleMessages.swift in Sources */,
-				EBFB42F620B1308100C62C85 /* UserInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,40 +277,6 @@
 			};
 			name = Release;
 		};
-		EBFB42EF20B1307800C62C85 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = GuessNumberGameTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ajpl.GuessNumberGameTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		EBFB42F020B1307800C62C85 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = GuessNumberGameTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ajpl.GuessNumberGameTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -401,15 +294,6 @@
 			buildConfigurations = (
 				EBFB42D720B12AC500C62C85 /* Debug */,
 				EBFB42D820B12AC500C62C85 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EBFB42EE20B1307800C62C85 /* Build configuration list for PBXNativeTarget "GuessNumberGameTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EBFB42EF20B1307800C62C85 /* Debug */,
-				EBFB42F020B1307800C62C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
