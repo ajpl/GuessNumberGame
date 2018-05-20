@@ -20,6 +20,7 @@
 		EBFB42F520B1308100C62C85 /* ConsoleMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */; };
 		EBFB42F620B1308100C62C85 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DD20B12D7100C62C85 /* UserInput.swift */; };
 		EBFB42F820B130A400C62C85 /* GuessNumberHumanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42F720B130A400C62C85 /* GuessNumberHumanTests.swift */; };
+		EBFB42FA20B1312F00C62C85 /* GuessNumberComputerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42F920B1312F00C62C85 /* GuessNumberComputerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		EBFB42E920B1307800C62C85 /* GuessNumberGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessNumberGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFB42ED20B1307800C62C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBFB42F720B130A400C62C85 /* GuessNumberHumanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberHumanTests.swift; sourceTree = "<group>"; };
+		EBFB42F920B1312F00C62C85 /* GuessNumberComputerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberComputerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				EBFB42F720B130A400C62C85 /* GuessNumberHumanTests.swift */,
+				EBFB42F920B1312F00C62C85 /* GuessNumberComputerTests.swift */,
 				EBFB42ED20B1307800C62C85 /* Info.plist */,
 			);
 			path = GuessNumberGameTests;
@@ -209,6 +212,7 @@
 				EBFB42F120B1308100C62C85 /* main.swift in Sources */,
 				EBFB42F420B1308100C62C85 /* GuessNumberComputer.swift in Sources */,
 				EBFB42F820B130A400C62C85 /* GuessNumberHumanTests.swift in Sources */,
+				EBFB42FA20B1312F00C62C85 /* GuessNumberComputerTests.swift in Sources */,
 				EBFB42F320B1308100C62C85 /* GuessNumberHuman.swift in Sources */,
 				EBFB42F220B1308100C62C85 /* GuessNumberGame.swift in Sources */,
 				EBFB42F520B1308100C62C85 /* ConsoleMessages.swift in Sources */,
