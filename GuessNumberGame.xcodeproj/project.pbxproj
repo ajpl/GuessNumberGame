@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		EBFB42D320B12AC500C62C85 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D220B12AC500C62C85 /* main.swift */; };
 		EBFB42DA20B12C0200C62C85 /* GuessNumberGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D920B12C0200C62C85 /* GuessNumberGame.swift */; };
+		EBFB42DC20B12D4100C62C85 /* GuessNumberHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DB20B12D4100C62C85 /* GuessNumberHuman.swift */; };
+		EBFB42DE20B12D7100C62C85 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DD20B12D7100C62C85 /* UserInput.swift */; };
+		EBFB42E020B12DC400C62C85 /* ConsoleMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		EBFB42CF20B12AC500C62C85 /* GuessNumberGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GuessNumberGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFB42D220B12AC500C62C85 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EBFB42D920B12C0200C62C85 /* GuessNumberGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberGame.swift; sourceTree = "<group>"; };
+		EBFB42DB20B12D4100C62C85 /* GuessNumberHuman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessNumberHuman.swift; sourceTree = "<group>"; };
+		EBFB42DD20B12D7100C62C85 /* UserInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInput.swift; sourceTree = "<group>"; };
+		EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleMessages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			children = (
 				EBFB42D220B12AC500C62C85 /* main.swift */,
 				EBFB42D920B12C0200C62C85 /* GuessNumberGame.swift */,
+				EBFB42DB20B12D4100C62C85 /* GuessNumberHuman.swift */,
+				EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */,
+				EBFB42DD20B12D7100C62C85 /* UserInput.swift */,
 			);
 			path = GuessNumberGame;
 			sourceTree = "<group>";
@@ -122,7 +131,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBFB42DC20B12D4100C62C85 /* GuessNumberHuman.swift in Sources */,
+				EBFB42DE20B12D7100C62C85 /* UserInput.swift in Sources */,
 				EBFB42DA20B12C0200C62C85 /* GuessNumberGame.swift in Sources */,
+				EBFB42E020B12DC400C62C85 /* ConsoleMessages.swift in Sources */,
 				EBFB42D320B12AC500C62C85 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

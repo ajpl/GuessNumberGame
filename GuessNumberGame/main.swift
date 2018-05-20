@@ -8,5 +8,26 @@
 
 import Foundation
 
-print("Hello, World!")
+print(ConsoleMessages.shared.welcomeMsg() + "\n")
 
+repeat {
+    print(ConsoleMessages.shared.menuMsg())
+    print("1. \(ConsoleMessages.shared.humanGuessesMsg())")
+    print("2. \(ConsoleMessages.shared.computerGuessesMsg())")
+    print("3. \(ConsoleMessages.shared.exitMsg())")
+    if let choice = readLine() {
+        let read = readInput()
+        switch choice{
+        case "1":
+            let gnh = GuessNumberHumanClass(inputType: read)
+            gnh.start()
+        case "2":
+            break
+        case "3":
+            print(ConsoleMessages.shared.goodbyeMsg())
+            abort()
+        default:
+            break
+        }
+    }
+}while (true)
