@@ -22,3 +22,35 @@ class readInput: UserInput {
         }
     }
 }
+
+class ProvideRandomNumber: UserInput {
+    var upperLimit = 0
+    var lowerLimit = 0
+    private var previousRandoms = [Int()]
+    private func random(_ range:Range<Int>) -> Int
+    {
+        return range.lowerBound + Int(arc4random_uniform(UInt32(range.upperBound+1 - range.lowerBound)))
+    }
+    func setLimits(n1 :Int, n2: Int) {
+        lowerLimit = n1
+        upperLimit = n2
+    }
+    
+    private func newNumber() -> Int {
+        let randomNumber = random(lowerLimit..<upperLimit)
+        if previousRandoms.contains(randomNumber) {
+            return newNumber()
+        }else{
+            previousRandoms.append(randomNumber)
+            return randomNumber
+        }
+    }
+    
+    func getInput() -> String {
+        return String(newNumber())
+    }
+    
+    func getLastRandom() -> Int {
+        return previousRandoms.last!
+    }
+}
