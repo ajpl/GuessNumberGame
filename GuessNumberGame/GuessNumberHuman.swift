@@ -8,7 +8,7 @@
 
 import Foundation
 
-class GuessNumberHumanClass: GuessNumberGameClass {
+class GuessNumberHuman: GuessNumberGame {
     private var randomNumber = 0
     private var guessedNumber = Int()
     private var isBigger = true

@@ -8,7 +8,7 @@
 
 import XCTest
 @testable import GuessNumberGame
-var humanGuess : GuessNumberHumanClass!
+var humanGuess : GuessNumberHuman!
 var random : ProvideRandomNumber!
 
 class GuessNumberHumanTests: XCTestCase {
@@ -17,7 +17,7 @@ class GuessNumberHumanTests: XCTestCase {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
         random = ProvideRandomNumber()
-        humanGuess = GuessNumberHumanClass(inputType: random)
+        humanGuess = GuessNumberHuman(inputType: random)
     }
     
     override func tearDown() {
@@ -28,6 +28,7 @@ class GuessNumberHumanTests: XCTestCase {
     }
     
     func testLowerBound() {
+        // Test for the case when the random number is the lower limit
         random.setLimits(n1: humanGuess.getLowerLimit(), n2: humanGuess.getUpperLimit())
         humanGuess.setRandomNumber(n: humanGuess.getLowerLimit())
         repeat {
@@ -44,6 +45,7 @@ class GuessNumberHumanTests: XCTestCase {
     }
     
     func testUpperBound() {
+        // Test for the case when the random number is the upper limit
         random.setLimits(n1: humanGuess.getLowerLimit(), n2: humanGuess.getUpperLimit())
         humanGuess.setRandomNumber(n: humanGuess.getUpperLimit())
         repeat {
@@ -60,6 +62,7 @@ class GuessNumberHumanTests: XCTestCase {
     }
     
     func testRandom() {
+        // Test for the case when the limits are 1 to 100, the default
         random.setLimits(n1: humanGuess.getLowerLimit(), n2: humanGuess.getUpperLimit())
         repeat {
             humanGuess.getInputNum()
@@ -75,6 +78,7 @@ class GuessNumberHumanTests: XCTestCase {
     }
     
     func testRandomDiffLimits() {
+        // Test for the case when the limits are 1 to 1000, different to the default
         humanGuess.setLimits(n1: 1, n2: 1000)
         random.setLimits(n1: humanGuess.getLowerLimit(), n2: humanGuess.getUpperLimit())
         repeat {

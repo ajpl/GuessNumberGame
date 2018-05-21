@@ -2,11 +2,16 @@
 //  UserInput.swift
 //  GuessNumberGame
 //
+// The protocol was implemented in order to be able to provide
+// artificial input during tests as well as real human input
+// while playing
 //
 //  2018
 //
 
 import Foundation
+
+
 
 protocol UserInput {
     func getInput() -> String

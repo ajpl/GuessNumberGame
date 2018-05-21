@@ -2,6 +2,7 @@
 //  GuessNumberGame.swift
 //  GuessNumberGame
 //
+// Abstract class
 //
 //  2018
 //
@@ -9,7 +10,7 @@
 
 import Foundation
 
-class GuessNumberGameClass {
+class GuessNumberGame {
     private var lowerLimit = Int()
     private var upperLimit = Int()
     private var attempts = 0
@@ -50,6 +51,8 @@ class GuessNumberGameClass {
     private func calcMaxAttempt() {
         sanityCheck()
         createArray()
+        //formula from the max number of attempts required
+        //by binary search to find the number according to the array's size
         maxAttempt = Int(log2(Double(intArray.count-1)).rounded(.awayFromZero))
     }
     func createArray() -> () {
@@ -85,8 +88,7 @@ class GuessNumberGameClass {
     
     func sanityCheck() {
         while lowerLimit > upperLimit {
-            print("Lower limit \(lowerLimit) is bigger than upper limit \(upperLimit)")
-            print("Enter new lower limit")
+            print(ConsoleMessages.shared.sanityCheckMsg(n1: lowerLimit, n2: upperLimit))
             if let lower = Int(readLine()!) {
                 setLowerLimit(n: lower)
             }

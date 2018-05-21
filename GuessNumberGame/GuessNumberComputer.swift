@@ -8,7 +8,7 @@
 
 import Foundation
 
-class GuessNumberComputerClass: GuessNumberGameClass {
+class GuessNumberComputer: GuessNumberGame {
     enum answer : String {
         case yes = "="
         case bigger = "+"

@@ -19,10 +19,10 @@ repeat {
         let read = readInput()
         switch choice{
         case "1":
-            let gnh = GuessNumberHumanClass(inputType: read)
+            let gnh = GuessNumberHuman(inputType: read)
             gnh.start()
         case "2":
-            let gnc = GuessNumberComputerClass(inputType: read)
+            let gnc = GuessNumberComputer(inputType: read)
             gnc.start()
         case "3":
             print(ConsoleMessages.shared.goodbyeMsg())

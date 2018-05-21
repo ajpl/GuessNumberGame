@@ -2,6 +2,9 @@
 //  ConsoleMessages.swift
 //  GuessNumberGame
 //
+// All of the app's messages can be easily
+// seen in one place and corrected or translated
+// if/when there is need. Also useful for localization
 //
 //  2018
 //
@@ -88,4 +91,8 @@ final class ConsoleMessages {
         return "You must have answered a question wrong because I've\nexceeded the max attempts number. Play Again.\n"
     }
     
+    func sanityCheckMsg(n1: Int, n2: Int) -> String {
+        return "Lower limit \(n1) is bigger than upper limit \(n2) \nEnter new lower limit"
+    }
+
 }
