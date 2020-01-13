@@ -1,0 +1,5 @@
+language:
+  - swift
+xcode_project: GuessNumberGame.xcodeproj
+xcode_scheme: GuessNumberGameTests
+xcode_destination: platform=macOS
