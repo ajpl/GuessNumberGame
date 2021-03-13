@@ -7,8 +7,6 @@ jobs:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Testing
-      run: xcodebuild -list
     - name: Build
       run: xcodebuild
     - name: Test

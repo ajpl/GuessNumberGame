@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import GuessNumberGame
 var computerGuess : GuessNumberComputer!
 var answerArray : ProvideAnswer!
 class GuessNumberComputerTests: XCTestCase {
