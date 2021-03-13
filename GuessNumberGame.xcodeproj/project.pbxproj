@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB6FC4C320B1339300443B44 /* GuessNumberHumanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC4C220B1339300443B44 /* GuessNumberHumanTests.swift */; };
-		EB6FC4C420B133ED00443B44 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D220B12AC500C62C85 /* main.swift */; };
-		EB6FC4C520B133ED00443B44 /* GuessNumberGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D920B12C0200C62C85 /* GuessNumberGame.swift */; };
-		EB6FC4C620B133ED00443B44 /* GuessNumberHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DB20B12D4100C62C85 /* GuessNumberHuman.swift */; };
-		EB6FC4C720B133ED00443B44 /* GuessNumberComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42E120B12F4700C62C85 /* GuessNumberComputer.swift */; };
-		EB6FC4C820B133ED00443B44 /* ConsoleMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */; };
-		EB6FC4C920B133ED00443B44 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DD20B12D7100C62C85 /* UserInput.swift */; };
-		EB6FC4CB20B1343B00443B44 /* GuessNumberComputerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC4CA20B1343B00443B44 /* GuessNumberComputerTests.swift */; };
-		EBFB42D320B12AC500C62C85 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D220B12AC500C62C85 /* main.swift */; };
-		EBFB42DA20B12C0200C62C85 /* GuessNumberGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D920B12C0200C62C85 /* GuessNumberGame.swift */; };
-		EBFB42DC20B12D4100C62C85 /* GuessNumberHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DB20B12D4100C62C85 /* GuessNumberHuman.swift */; };
-		EBFB42DE20B12D7100C62C85 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DD20B12D7100C62C85 /* UserInput.swift */; };
-		EBFB42E020B12DC400C62C85 /* ConsoleMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */; };
-		EBFB42E220B12F4700C62C85 /* GuessNumberComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42E120B12F4700C62C85 /* GuessNumberComputer.swift */; };
+		EB8ED2CD23CC211D00DDB50B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D220B12AC500C62C85 /* main.swift */; };
+		EB8ED2CE23CC211D00DDB50B /* GuessNumberGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D920B12C0200C62C85 /* GuessNumberGame.swift */; };
+		EB8ED2CF23CC211D00DDB50B /* GuessNumberHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DB20B12D4100C62C85 /* GuessNumberHuman.swift */; };
+		EB8ED2D023CC211D00DDB50B /* GuessNumberComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42E120B12F4700C62C85 /* GuessNumberComputer.swift */; };
+		EB8ED2D123CC211D00DDB50B /* ConsoleMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */; };
+		EB8ED2D223CC211D00DDB50B /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DD20B12D7100C62C85 /* UserInput.swift */; };
+		EB8ED2D323CC211E00DDB50B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D220B12AC500C62C85 /* main.swift */; };
+		EB8ED2D423CC211E00DDB50B /* GuessNumberGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42D920B12C0200C62C85 /* GuessNumberGame.swift */; };
+		EB8ED2D523CC211E00DDB50B /* GuessNumberHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DB20B12D4100C62C85 /* GuessNumberHuman.swift */; };
+		EB8ED2D623CC211E00DDB50B /* GuessNumberComputer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42E120B12F4700C62C85 /* GuessNumberComputer.swift */; };
+		EB8ED2D723CC211E00DDB50B /* ConsoleMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DF20B12DC400C62C85 /* ConsoleMessages.swift */; };
+		EB8ED2D823CC211E00DDB50B /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB42DD20B12D7100C62C85 /* UserInput.swift */; };
+		EB8ED2D923CC213400DDB50B /* GuessNumberHumanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC4C220B1339300443B44 /* GuessNumberHumanTests.swift */; };
+		EB8ED2DA23CC213400DDB50B /* GuessNumberComputerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6FC4CA20B1343B00443B44 /* GuessNumberComputerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -197,14 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB6FC4C420B133ED00443B44 /* main.swift in Sources */,
-				EB6FC4C720B133ED00443B44 /* GuessNumberComputer.swift in Sources */,
-				EB6FC4C320B1339300443B44 /* GuessNumberHumanTests.swift in Sources */,
-				EB6FC4CB20B1343B00443B44 /* GuessNumberComputerTests.swift in Sources */,
-				EB6FC4C620B133ED00443B44 /* GuessNumberHuman.swift in Sources */,
-				EB6FC4C520B133ED00443B44 /* GuessNumberGame.swift in Sources */,
-				EB6FC4C820B133ED00443B44 /* ConsoleMessages.swift in Sources */,
-				EB6FC4C920B133ED00443B44 /* UserInput.swift in Sources */,
+				EB8ED2D223CC211D00DDB50B /* UserInput.swift in Sources */,
+				EB8ED2D123CC211D00DDB50B /* ConsoleMessages.swift in Sources */,
+				EB8ED2D923CC213400DDB50B /* GuessNumberHumanTests.swift in Sources */,
+				EB8ED2DA23CC213400DDB50B /* GuessNumberComputerTests.swift in Sources */,
+				EB8ED2D023CC211D00DDB50B /* GuessNumberComputer.swift in Sources */,
+				EB8ED2CF23CC211D00DDB50B /* GuessNumberHuman.swift in Sources */,
+				EB8ED2CE23CC211D00DDB50B /* GuessNumberGame.swift in Sources */,
+				EB8ED2CD23CC211D00DDB50B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,12 +212,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBFB42DC20B12D4100C62C85 /* GuessNumberHuman.swift in Sources */,
-				EBFB42E220B12F4700C62C85 /* GuessNumberComputer.swift in Sources */,
-				EBFB42DE20B12D7100C62C85 /* UserInput.swift in Sources */,
-				EBFB42DA20B12C0200C62C85 /* GuessNumberGame.swift in Sources */,
-				EBFB42E020B12DC400C62C85 /* ConsoleMessages.swift in Sources */,
-				EBFB42D320B12AC500C62C85 /* main.swift in Sources */,
+				EB8ED2D523CC211E00DDB50B /* GuessNumberHuman.swift in Sources */,
+				EB8ED2D823CC211E00DDB50B /* UserInput.swift in Sources */,
+				EB8ED2D423CC211E00DDB50B /* GuessNumberGame.swift in Sources */,
+				EB8ED2D323CC211E00DDB50B /* main.swift in Sources */,
+				EB8ED2D723CC211E00DDB50B /* ConsoleMessages.swift in Sources */,
+				EB8ED2D623CC211E00DDB50B /* GuessNumberComputer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +296,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -356,8 +357,10 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
